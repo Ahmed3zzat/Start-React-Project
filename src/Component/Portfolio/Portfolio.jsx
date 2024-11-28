@@ -16,7 +16,7 @@ export default function Portfolio() {
           <span className="inline-block bg-second-color h-[0.2rem] w-16"></span>
         </div>
       </div>
-      <div className="parent flex flex-wrap justify-center items-center">
+      <div className="parent flex flex-wrap justify-center items-center mb-14">
         <Protfolio_sec />
         <Protfolio_sec />
       </div>

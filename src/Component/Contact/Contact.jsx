@@ -16,13 +16,13 @@ export default function Contact() {
         </div>
       </div>
 
-      <form className="sm:mx-4 max-w-md md:mx-auto h-screen mt-12 ">
-        <div className="relative z-0 w-full mb-7 group">
+      <form className="sm:mx-4 md:mx-auto h-screen px-5 ">
+        <div className="relative z-0 md:w-full sm:w-2/3 sm:mx-auto  mb-7 group">
           <input
             type="text"
             name="floating_name"
             id="floating_name"
-            className="block py-2.5 px-0 md:w-full text-xs  bg-transparent border-0 border-b-[1px] sm:w-[95vh] border-gray-300 appearance-none dark:text-black dark:border-gray-400 dark:focus:border-[#1abc9c] focus:outline-none focus:ring-0 focus:border-[#1abc9c] peer"
+            className="block py-2.5 px-0 w-full text-xs bg-transparent border-0 border-b-[1px] border-gray-300 appearance-none dark:text-black dark:border-gray-400 dark:focus:border-[#1abc9c] focus:outline-none focus:ring-0 focus:border-[#1abc9c] peer"
             placeholder=" "
             required
           />
@@ -34,12 +34,12 @@ export default function Contact() {
           </label>
         </div>
 
-        <div className="relative z-0 w-full mb-7 group">
+        <div className="relative z-0 md:w-full sm:w-2/3 sm:mx-auto  mb-7 group">
           <input
             type="number"
             name="floating_age"
             id="floating_age"
-            className="block py-2.5 px-0 md:w-full text-xs  bg-transparent border-0 border-b-[1px] sm:w-[95vh] border-gray-300 appearance-none dark:text-black dark:border-gray-400 dark:focus:border-[#1abc9c] focus:outline-none focus:ring-0 focus:border-[#1abc9c] peer"
+            className="block py-2.5 px-0 w-full text-xs bg-transparent border-0 border-b-[1px] border-gray-300 appearance-none dark:text-black dark:border-gray-400 dark:focus:border-[#1abc9c] focus:outline-none focus:ring-0 focus:border-[#1abc9c] peer"
             placeholder=" "
             required
           />
@@ -51,12 +51,12 @@ export default function Contact() {
           </label>
         </div>
 
-        <div className="relative z-0 w-full mb-7 group">
+        <div className="relative z-0 md:w-full sm:w-2/3 sm:mx-auto  mb-7 group">
           <input
             type="email"
             name="floating_email"
             id="floating_email"
-            className="block py-2.5 px-0 md:w-full text-xs  bg-transparent border-0 border-b-[1px] sm:w-[95vh] border-gray-300 appearance-none dark:text-black dark:border-gray-400 dark:focus:border-[#1abc9c] focus:outline-none focus:ring-0 focus:border-[#1abc9c] peer"
+            className="block py-2.5 px-0 w-full text-xs bg-transparent border-0 border-b-[1px] border-gray-300 appearance-none dark:text-black dark:border-gray-400 dark:focus:border-[#1abc9c] focus:outline-none focus:ring-0 focus:border-[#1abc9c] peer"
             placeholder=" "
             required
           />
@@ -67,12 +67,12 @@ export default function Contact() {
             userEmail
           </label>
         </div>
-        <div className="relative z-0 w-full mb-7 group">
+        <div className="relative z-0 md:w-full sm:w-2/3 sm:mx-auto  mb-7 group">
           <input
             type="password"
             name="floating_password"
             id="floating_password"
-            className="block py-2.5 px-0 md:w-full text-xs  bg-transparent border-0 border-b-[1px] sm:w-[95vh] border-gray-300 appearance-none dark:text-black dark:border-gray-400 dark:focus:border-[#1abc9c] focus:outline-none focus:ring-0 focus:border-[#1abc9c] peer"
+            className="block py-2.5 px-0 w-full text-xs bg-transparent border-0 border-b-[1px] border-gray-300 appearance-none dark:text-black dark:border-gray-400 dark:focus:border-[#1abc9c] focus:outline-none focus:ring-0 focus:border-[#1abc9c] peer"
             placeholder=" "
             required
           />
@@ -86,7 +86,7 @@ export default function Contact() {
 
         <button
           type="button"
-          className="text-white bg-[#1abc9c] hover:bg-[#1ab293] focus:ring-4 focus:outline-none focus:ring-blue-300 font-normal rounded-md text-xs w-full sm:w-auto px-3 py-1.5 text-center dark:bg-[#1abc9c] dark:hover:bg-[#1abc9c] dark:focus:bg-[#1abc9c]"
+          className="block text-white bg-[#1abc9c] hover:bg-[#1ab293] focus:ring-4 focus:outline-none focus:ring-blue-300 font-normal rounded-md text-xs w-full md:w-full sm:w-2/3 sm:mx-auto px-3 py-1.5 text-center dark:bg-[#1abc9c] dark:hover:bg-[#1abc9c] dark:focus:bg-[#1abc9c]"
         >
           send Message
         </button>
